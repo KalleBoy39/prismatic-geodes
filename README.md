@@ -85,8 +85,8 @@ It opens a map in your browser. Enter your world seed and it shows:
 - the exact coordinates, with buttons to copy them or a `/tp` command,
 - filters for the colours you are looking for.
 
-The positions and colours come straight from your seed, so they are exact. A button called **Verify visible area**
-checks which spots really grew a geode, because terrain stops about 1 in 10 of them. It works by building that area in a
+The predicted positions and colours come straight from your seed. **Verify visible area** checks which of those geode
+attempts actually formed in the terrain. Terrain stops about 1 in 10 of them. It works by building that area in a
 hidden test world on your own PC.
 
 Nothing to install: download the ZIP, unzip, run. Java is included.
