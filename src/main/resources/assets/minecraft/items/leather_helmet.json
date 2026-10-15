@@ -1,0 +1,356 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_helmet_quartz_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:quartz"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_helmet_iron_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:iron"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_helmet_netherite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:netherite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_helmet_redstone_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:redstone"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_helmet_copper_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:copper"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_helmet_gold_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:gold"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_helmet_emerald_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:emerald"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_helmet_diamond_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:diamond"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_helmet_lapis_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:lapis"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_helmet_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_helmet_resin_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:resin"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_white_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:white_amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_orange_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:orange_amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_magenta_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:magenta_amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_light_blue_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:light_blue_amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_yellow_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:yellow_amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_lime_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:lime_amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_pink_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:pink_amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_gray_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:gray_amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_light_gray_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:light_gray_amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_cyan_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:cyan_amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_blue_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:blue_amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_brown_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:brown_amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_green_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:green_amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_red_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:red_amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "vplus_geodes:item/leather_helmet_black_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "vplus_geodes:black_amethyst"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/leather_helmet",
+      "tints": [
+        {
+          "type": "minecraft:dye",
+          "default": -6265536
+        }
+      ]
+    },
+    "property": "minecraft:trim_material"
+  }
+}

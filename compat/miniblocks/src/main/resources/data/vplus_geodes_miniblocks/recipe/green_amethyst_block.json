@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "vplus_geodes:green_amethyst_block",
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 8,
+    "components": {
+      "minecraft:profile": {
+        "texture": "vplus_geodes_miniblocks:entity/mini_block/green_amethyst_block"
+      },
+      "minecraft:item_name": "Mini Green Amethyst Block",
+      "minecraft:rarity": "common"
+    }
+  }
+}

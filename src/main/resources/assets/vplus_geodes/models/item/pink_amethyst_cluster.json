@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/amethyst_cluster",
+  "textures": {
+    "layer0": "vplus_geodes:block/pink_amethyst_cluster"
+  }
+}

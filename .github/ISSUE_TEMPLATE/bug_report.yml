@@ -1,0 +1,64 @@
+name: Bug report
+description: Something doesn't work as it should (crash, wrong colour, missing texture, locator problem, ...)
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please check [TROUBLESHOOTING.md](https://github.com/KalleBoy39/prismatic-geodes/blob/main/docs/TROUBLESHOOTING.md) first.
+        Most "all my geodes are purple" cases are chunks that were explored before the mod was installed.
+  - type: dropdown
+    id: part
+    attributes:
+      label: Which part?
+      options:
+        - Prismatic Geodes (the mod)
+        - "Prismatic Geodes: Mini Blocks (addon)"
+        - Prismatic Geode Locator (map tool)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead? Screenshots help.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can I reproduce it?
+      placeholder: |
+        1. Create a new world with seed ...
+        2. Go to ...
+        3. ...
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Minecraft, Fabric Loader, Fabric API, Prismatic Geodes (and Mini Blocks / Locator if used)
+      placeholder: "Minecraft 26.3, Fabric Loader 0.19.5, Fabric API 0.162.0+26.3, Prismatic Geodes 1.0.0+26.3"
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where does it happen?
+      options:
+        - Singleplayer
+        - Multiplayer server
+        - Both
+        - Locator only
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods, data packs and resource packs
+      description: The mod list from the crash report is fine.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Crash report or log
+      description: |
+        Mods: the crash report or `logs/latest.log` (upload it to https://mclo.gs and paste the link, or attach the file).
+        Locator: `data\logs\locator.log` next to the program.
+      render: text

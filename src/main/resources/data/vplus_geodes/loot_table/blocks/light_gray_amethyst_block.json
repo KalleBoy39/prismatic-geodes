@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vplus_geodes:light_gray_amethyst_block"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "vplus_geodes:blocks/light_gray_amethyst_block"
+}

@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "vplus_geodes",
+	"version": "${version}",
+	"name": "Prismatic Geodes",
+	"description": "Amethyst geodes in all 16 Minecraft dye colours, with vanilla-like generation and mechanics. One colour per geode; purple stays vanilla amethyst, and the other 15 colours are full amethyst families that grow, drop and craft like vanilla.",
+	"authors": [
+		"KalleBoy39"
+	],
+	"contact": {
+		"homepage": "https://github.com/KalleBoy39/prismatic-geodes",
+		"sources": "https://github.com/KalleBoy39/prismatic-geodes",
+		"issues": "https://github.com/KalleBoy39/prismatic-geodes/issues"
+	},
+	"license": [
+		"MIT",
+		"LicenseRef-Minecraft-derived-assets"
+	],
+	"icon": "assets/vplus_geodes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.vplus.geodes.VanillaPlusGeodes"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

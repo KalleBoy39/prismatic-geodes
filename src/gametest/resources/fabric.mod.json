@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "vplus_geodes_test",
+	"version": "1.0.0",
+	"name": "Prismatic Geodes tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": [
+			"dev.vplus.geodes.test.GeodeGameTests",
+			"dev.vplus.geodes.test.RecipeGameTests",
+			"dev.vplus.geodes.test.TrimGameTests"
+		],
+		"fabric-client-gametest": [
+			"dev.vplus.geodes.test.GeodeClientGameTest",
+			"dev.vplus.geodes.test.GeodeTrimClientGameTest"
+		]
+	},
+	"depends": {
+		"vplus_geodes": "*"
+	}
+}

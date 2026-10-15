@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "vplus_geodes:block/medium_brown_amethyst_bud",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "vplus_geodes:block/medium_brown_amethyst_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "vplus_geodes:block/medium_brown_amethyst_bud",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "vplus_geodes:block/medium_brown_amethyst_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "vplus_geodes:block/medium_brown_amethyst_bud"
+    },
+    "facing=west": {
+      "model": "vplus_geodes:block/medium_brown_amethyst_bud",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

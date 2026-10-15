@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "vplus_geodes:block/black_amethyst_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "vplus_geodes:block/black_amethyst_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "vplus_geodes:block/black_amethyst_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "vplus_geodes:block/black_amethyst_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "vplus_geodes:block/black_amethyst_cluster"
+    },
+    "facing=west": {
+      "model": "vplus_geodes:block/black_amethyst_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

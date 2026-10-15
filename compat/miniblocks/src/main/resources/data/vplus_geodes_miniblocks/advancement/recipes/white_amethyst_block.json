@@ -1,0 +1,32 @@
+{
+  "parent": "vplus_geodes_miniblocks:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "vplus_geodes_miniblocks:white_amethyst_block"
+      }
+    },
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "vplus_geodes:white_amethyst_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vplus_geodes_miniblocks:white_amethyst_block"
+    ]
+  }
+}

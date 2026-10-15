@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "vplus_geode_locator_probe",
+  "version": "1.0.0",
+  "name": "Geode Locator Probe (shadow server only)",
+  "description": "Reports the live amethyst_geode feature index for the Prismatic Geode Locator. For the disposable shadow server only.",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["dev.vplus.locatorprobe.LocatorProbe"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "fabric-lifecycle-events-v1": "*"
+  }
+}

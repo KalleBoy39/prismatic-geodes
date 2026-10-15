@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "vplus_geodes:amethyst_geode/white",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/orange",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/magenta",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/light_blue",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/yellow",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/lime",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/pink",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/gray",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/light_gray",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/cyan",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/purple",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/blue",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/brown",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/green",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/red",
+      "placement": []
+    },
+    {
+      "feature": "vplus_geodes:amethyst_geode/black",
+      "placement": []
+    }
+  ]
+}

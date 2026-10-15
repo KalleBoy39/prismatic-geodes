@@ -1,0 +1,31 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:paletted_permutations",
+      "palette_key": "minecraft:trim_base",
+      "permutations": {
+        "vplus_geodes_white_amethyst": "vplus_geodes:trim/white_amethyst",
+        "vplus_geodes_orange_amethyst": "vplus_geodes:trim/orange_amethyst",
+        "vplus_geodes_magenta_amethyst": "vplus_geodes:trim/magenta_amethyst",
+        "vplus_geodes_light_blue_amethyst": "vplus_geodes:trim/light_blue_amethyst",
+        "vplus_geodes_yellow_amethyst": "vplus_geodes:trim/yellow_amethyst",
+        "vplus_geodes_lime_amethyst": "vplus_geodes:trim/lime_amethyst",
+        "vplus_geodes_pink_amethyst": "vplus_geodes:trim/pink_amethyst",
+        "vplus_geodes_gray_amethyst": "vplus_geodes:trim/gray_amethyst",
+        "vplus_geodes_light_gray_amethyst": "vplus_geodes:trim/light_gray_amethyst",
+        "vplus_geodes_cyan_amethyst": "vplus_geodes:trim/cyan_amethyst",
+        "vplus_geodes_blue_amethyst": "vplus_geodes:trim/blue_amethyst",
+        "vplus_geodes_brown_amethyst": "vplus_geodes:trim/brown_amethyst",
+        "vplus_geodes_green_amethyst": "vplus_geodes:trim/green_amethyst",
+        "vplus_geodes_red_amethyst": "vplus_geodes:trim/red_amethyst",
+        "vplus_geodes_black_amethyst": "vplus_geodes:trim/black_amethyst"
+      },
+      "textures": [
+        "minecraft:trims/items/helmet_trim",
+        "minecraft:trims/items/chestplate_trim",
+        "minecraft:trims/items/leggings_trim",
+        "minecraft:trims/items/boots_trim"
+      ]
+    }
+  ]
+}

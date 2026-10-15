@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Prismatic Geode Locator: Minecraft's own log output goes to the locator log (data/logs/locator.log), not to a
+     logs/ folder in the current directory. -->
+<Configuration status="WARN">
+  <Appenders>
+    <Console name="Out" target="SYSTEM_OUT">
+      <PatternLayout pattern="[%d{HH:mm:ss}] [%t/%level] %msg%n"/>
+    </Console>
+  </Appenders>
+  <Loggers>
+    <Root level="warn">
+      <AppenderRef ref="Out"/>
+    </Root>
+  </Loggers>
+</Configuration>

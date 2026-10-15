@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/large_amethyst_bud",
+  "textures": {
+    "layer0": "vplus_geodes:block/large_lime_amethyst_bud"
+  }
+}

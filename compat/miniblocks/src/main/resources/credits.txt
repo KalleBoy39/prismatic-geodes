@@ -1,0 +1,6 @@
+Credits:
+Vanilla Tweaks: https://vanillatweaks.net/
+
+The mini block head textures in this addon are recoloured from the Mini Amethyst Block of the
+Vanilla Tweaks "Mini Blocks" data pack (v1.1.8), used under the Vanilla Tweaks terms:
+https://vanillatweaks.net/terms/

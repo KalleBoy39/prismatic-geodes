@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "vplus_geodes:block/light_blue_budding_amethyst"
+  }
+}

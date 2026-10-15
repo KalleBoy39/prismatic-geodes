@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "vplus_geodes:block/large_yellow_amethyst_bud"
+  }
+}

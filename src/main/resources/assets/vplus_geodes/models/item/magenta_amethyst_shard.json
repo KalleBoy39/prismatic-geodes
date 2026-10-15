@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "vplus_geodes:item/magenta_amethyst_shard"
+  }
+}

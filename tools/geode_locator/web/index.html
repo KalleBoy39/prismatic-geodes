@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prismatic Geode Locator</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside id="side">
+  <header>
+    <canvas id="logo"></canvas>
+    <div>
+      <h1>Prismatic Geode Locator</h1>
+      <div class="sub muted">for Prismatic Geodes · Minecraft 26.3</div>
+    </div>
+  </header>
+
+  <section>
+    <label class="lbl" for="seed">World seed</label>
+    <div class="row">
+      <input id="seed" placeholder="number or text" autocomplete="off" spellcheck="false">
+      <button id="seedGo" class="primary">Show</button>
+    </div>
+    <div class="hint muted" id="seedHint">In Minecraft, type <code>/seed</code> in chat to see it.</div>
+  </section>
+
+  <section>
+    <label class="lbl">Go to coordinates</label>
+    <div class="row">
+      <input id="gx" class="num" placeholder="X" inputmode="numeric">
+      <input id="gz" class="num" placeholder="Z" inputmode="numeric">
+      <button id="go">Go</button>
+    </div>
+  </section>
+
+  <section>
+    <div class="row between">
+      <label class="lbl">Geode colours</label>
+      <span class="small"><button id="allOn" class="link">All</button> · <button id="allOff" class="link">None</button></span>
+    </div>
+    <div id="filters"></div>
+  </section>
+
+  <section>
+    <label class="lbl">Map</label>
+    <label class="chk"><input type="checkbox" id="lTerrain" checked> Terrain</label>
+    <label class="chk"><input type="checkbox" id="lGrid"> Chunk grid</label>
+    <label class="chk"><input type="checkbox" id="lAborted" checked> Show spots where terrain stopped the geode</label>
+  </section>
+
+  <section class="card">
+    <label class="lbl">Check the visible area</label>
+    <p class="small muted">Positions and colours come straight from the seed. In about 1 of 10 spots the terrain
+      (a cave, water or open air) stops the geode from forming. <b>Verify</b> builds the visible area in a hidden test
+      world on this PC and shows which geodes really exist.</p>
+    <button id="verify" class="primary wide" disabled>Verify visible area</button>
+    <div id="verifyBar" class="bar" hidden><div></div></div>
+    <div id="verifyMsg" class="small muted"></div>
+  </section>
+
+  <div id="extSlot"></div>
+
+  <section>
+    <label class="lbl">Legend</label>
+    <ul id="legend">
+      <li><canvas data-k="predicted"></canvas><span><b>Predicted</b> from the seed, not checked yet</span></li>
+      <li><canvas data-k="confirmed"></canvas><span><b>Confirmed</b> by Verify: the geode is there</span></li>
+      <li><canvas data-k="aborted"></canvas><span><b>Stopped by terrain</b>: no geode formed here</span></li>
+      <li><canvas data-k="verChunk"></canvas><span>Verified area</span></li>
+    </ul>
+  </section>
+
+  <section id="stats" class="small muted"></section>
+
+  <details id="about">
+    <summary>About this map</summary>
+    <div class="small muted">
+      <p>Each marker sits on the <b>feature origin</b> Minecraft uses for the geode. It is exact, computed from your
+        seed with Minecraft's own random number generator. The hollow centre is about 5 blocks further in X, Y and Z.</p>
+      <p>The terrain is computed from the seed too, with Minecraft's own world generation: biomes, land, water and
+        height. Caves, trees, villages and small inland lakes are not drawn.</p>
+      <p>Supports worlds of the default type (not Amplified, Large Biomes or Superflat). Chunks that were generated
+        before Prismatic Geodes was installed keep their purple vanilla geodes.</p>
+      <p id="aboutTech"></p>
+      <p>NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</p>
+    </div>
+  </details>
+</aside>
+
+<main id="mapwrap">
+  <canvas id="map"></canvas>
+  <div id="zoom"><button id="zin" title="Zoom in">+</button><button id="zout" title="Zoom out">−</button></div>
+  <div id="coords" class="mono"></div>
+  <div id="notice"></div>
+  <div id="welcome" hidden>
+    <h2>Find coloured geodes in your world</h2>
+    <p>Enter your world seed on the left. In Minecraft, type <code>/seed</code> in chat to see it.</p>
+  </div>
+  <div id="tip" hidden></div>
+  <div id="popup" hidden></div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

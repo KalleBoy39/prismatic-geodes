@@ -1,0 +1,32 @@
+name: Feature suggestion
+description: An idea for Prismatic Geodes, the Mini Blocks addon or the locator
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome! The project aims to stay vanilla-like: new things should feel like they could be in
+        Minecraft, and geodes keep their vanilla rarity.
+  - type: dropdown
+    id: part
+    attributes:
+      label: Which part?
+      options:
+        - Prismatic Geodes (the mod)
+        - "Prismatic Geodes: Mini Blocks (addon)"
+        - Prismatic Geode Locator (map tool)
+        - Something new
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should it do, and how would you use it in your world?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it be nice?
+      description: Optional. Screenshots or examples from vanilla or other mods help.

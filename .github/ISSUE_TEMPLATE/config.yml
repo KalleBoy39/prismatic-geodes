@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Troubleshooting guide
+    url: https://github.com/KalleBoy39/prismatic-geodes/blob/main/docs/TROUBLESHOOTING.md
+    about: Common problems and their fixes. Please check here first.
+  - name: Installation guide
+    url: https://github.com/KalleBoy39/prismatic-geodes/blob/main/docs/INSTALLATION.md
+    about: How to install Fabric, the mod, the Mini Blocks addon and the locator.

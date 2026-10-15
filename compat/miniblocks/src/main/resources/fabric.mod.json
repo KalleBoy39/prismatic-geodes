@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "vplus_geodes_miniblocks",
+	"version": "${version}",
+	"name": "Prismatic Geodes: Mini Blocks",
+	"description": "Optional addon: mini blocks (decorative heads) for the 15 coloured Prismatic Geodes amethyst blocks, made to fit next to the Vanilla Tweaks Mini Blocks data pack. Requires Prismatic Geodes. Stonecut 1 block into 8 mini blocks. Purple is already in Vanilla Tweaks Mini Blocks. Head textures recoloured from the Vanilla Tweaks Mini Amethyst Block (https://vanillatweaks.net/).",
+	"authors": [
+		"KalleBoy39"
+	],
+	"contact": {
+		"homepage": "https://github.com/KalleBoy39/prismatic-geodes",
+		"sources": "https://github.com/KalleBoy39/prismatic-geodes",
+		"issues": "https://github.com/KalleBoy39/prismatic-geodes/issues"
+	},
+	"license": [
+		"MIT",
+		"LicenseRef-Minecraft-derived-assets",
+		"LicenseRef-Vanilla-Tweaks-derived-assets"
+	],
+	"icon": "assets/vplus_geodes_miniblocks/icon.png",
+	"environment": "*",
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"vplus_geodes": "*"
+	},
+	"suggests": {
+		"fabric-api": "*"
+	}
+}

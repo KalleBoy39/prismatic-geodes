@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "vplus_geodes:block/pink_amethyst_cluster"
+  }
+}

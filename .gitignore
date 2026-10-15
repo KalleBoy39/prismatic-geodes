@@ -1,0 +1,42 @@
+﻿# gradle
+.gradle/
+build/
+out/
+classes/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+*.launch
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# OS
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Minecraft dev runs (Loom) and crash/profiler output
+run/
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+logs/
+
+# python
+__pycache__/
+*.pyc
+
+# locator: downloaded build inputs, build output, runtime data
+tools/geode_locator/runtime/
+tools/geode_locator/data/
+tools/geode_locator/audit-patterns.local.txt
+
+# Vanilla Tweaks artwork used as a generator template; not ours to redistribute unmodified
+compat/miniblocks/tools/templates/*.png
