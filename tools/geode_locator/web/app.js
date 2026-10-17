@@ -467,7 +467,7 @@ function placePopup() {
 }
 const STATUS = {
   predicted: ['', 'Predicted from the seed. Not checked against the terrain yet; use Verify to be sure.'],
-  confirmed: ['ok', 'Confirmed: Verify found this geode in the test world.'],
+  confirmed: ['ok', '<b>Verified in newly generated terrain</b><br>Confirms that the predicted geode forms when this area is generated with Prismatic Geodes installed. Chunks generated before the mod was installed keep their original vanilla purple geodes.'],
   aborted: ['ab', 'Stopped by terrain: Verify found no geode here (a cave, water or open air was in the way).'],
 };
 function copyButton(label, text) {
@@ -517,7 +517,7 @@ function showTip(hit, px, py) {
   if (!hit) { t.hidden = true; canvas.classList.remove('hover'); return; }
   canvas.classList.add('hover');
   t.textContent = hit.tip || (hit.type === 'attempt'
-    ? `${NICE(COLOURS[hit.a.c])} · ${hit.a.x} ${hit.a.y} ${hit.a.z} · ${hit.kind === 'predicted' ? 'predicted' : hit.kind === 'confirmed' ? 'confirmed' : 'stopped by terrain'}`
+    ? `${NICE(COLOURS[hit.a.c])} · ${hit.a.x} ${hit.a.y} ${hit.a.z} · ${hit.kind === 'predicted' ? 'predicted' : hit.kind === 'confirmed' ? 'Confirmed in fresh generation — existing old chunks may differ.' : 'stopped by terrain'}`
     : '');
   t.hidden = !t.textContent;
   t.style.left = (px + 14) + 'px'; t.style.top = (py + 14) + 'px';
